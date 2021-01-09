@@ -1,0 +1,22 @@
+body {
+    background: tomato;
+}
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translatex(-50%) translateY(-50%);
+    color:yellow;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 15px;
+}
+button {
+    color: red;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    letter-spacing: 7px;
+    background-color: green;
+
+}

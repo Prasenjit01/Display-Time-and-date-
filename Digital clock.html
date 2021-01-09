@@ -1,0 +1,18 @@
+<html>
+    <head><title> Digital Clock</title>
+    <link href="clock.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1 id="myclock" class="clock" onload="showTime()">hi</h1>
+        <script src="clock.js"></script>
+        <button type="button" onclick="displayDate()"> CLICK DISPLAY DATE</button>
+        <p id="demo"></p>
+        <script>
+            function displayDate(){
+                document.getElementById("demo").innerHTML=Date();
+            }
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            A java script page
+        </title>
+        <script type="text/javascript">
+        function msg(){
+            alert("Hello javascript");
+        }
+        </script>
+
+    </head>
+    <body>
+        <p id="demo">My first paragraph</p>
+        <script type="text/javascript">
+        document.write("<h1> Javascript is a simple language for javascript learners </h1>");
+        document.write("</br>");
+        var a=10;
+        var b=20;
+        var c=a+b;
+        document.write(c);
+        document.getElementById("demo").innerHTML="My first Javascript";
+        
+        
+        </script>
+        <form>
+            <input type="button" value="click" onclick="msg()"/>
+        </form>
+        <h1>
+            Confirm Box
+        </h1>
+        <h1 id="demo1"></h1>
+        <button onclick="myfunction()">try it</button>
+        <script>
+            function myfunction(){
+                var x;
+                var r=confirm("press a button!");
+                if(r==true){
+                    x="you pressed ok!";
+                }
+                else{
+                    x="you pressed cancel!";
+                }
+                document.getElementById('demo1').innerHTML=x;
+            }
+        </script>
+        <h1> Prompt Box</h1>
+        <button onclick="myfunction1()">Try it</button>
+        <h2 id="demo2"></h2>
+        <h3>hi</h3>
+        <script>
+            function myfunction1(){
+                var y;
+                var name=prompt("please enter your name","Prasenjit Adhikari");
+                if(name!=null){
+                    y="hello" +name+ "!How are you today?";
+                    document.getElementById("demo2").innerHTML=y;
+                }
+            }
+        </script>
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
